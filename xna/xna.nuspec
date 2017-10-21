@@ -38,7 +38,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <authors>Microsoft</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://www.visualstudio.com/vs/game-development</projectUrl>
-    <!--<iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/xna/icons/Microsoft_XNA_logo.svg</iconUrl>-->
+    <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/xna/icons/Microsoft_XNA_logo.svg</iconUrl>
     <copyright>2017</copyright>
     <!-- If there is a license Url available, it is required for the community feed -->
     <licenseUrl>https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx</licenseUrl>
