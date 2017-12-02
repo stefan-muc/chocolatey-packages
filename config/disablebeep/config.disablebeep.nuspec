@@ -49,11 +49,13 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!--<bugTrackerUrl></bugTrackerUrl>-->
     <tags>Microsoft Windows Config Bell</tags>
     <summary>Disable Windows bell</summary>
-    <description>Even when Windows is in "No Sounds" scheme, in some cases Windows still makes beep sounds (e.g. using backspace on an empty PowerShell prompt). This package disables all those beep sounds.
+    <description><![CDATA[
+Even when Windows is in "No Sounds" scheme, in some cases Windows still makes beep sounds (e.g. using backspace on an empty PowerShell prompt). This package disables all those beep sounds.
 
-	 Don't use this package (when you use assistive technologies)[https://blogs.msdn.microsoft.com/larryosterman/2010/01/04/whats-up-with-the-beep-driver-in-windows-7/] under the (American’s with Disabilities Act)[https://www.ada.gov/] because they might stop working properly.
+Don't use this package [when you use assistive technologies](https://blogs.msdn.microsoft.com/larryosterman/2010/01/04/whats-up-with-the-beep-driver-in-windows-7/) under the [American’s with Disabilities Act](https://www.ada.gov/) because they might stop working properly.
 
-	 Bell icon courtesy by (Dinosoft Labs, PK)[https://thenounproject.com/term/bell/835447/] (CC-BY)</description>
+	 Bell icon courtesy by [Dinosoft Labs, PK](https://thenounproject.com/term/bell/835447/) (CC-BY)
+]]></description>
     <!-- <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes> -->
     <!-- =============================== -->
 
