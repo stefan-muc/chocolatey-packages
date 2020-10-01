@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>keepass-plugin-keepassotp</id>
+    <version>0.16</version>
+    <title>KeePass Plugin KeePassOTP</title>
+    <authors>Rookiestyle</authors>
+    <owners>StefanMUC</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-3.0.html</licenseUrl>
+    <projectUrl>https://github.com/Rookiestyle/KeePassOTP</projectUrl>
+    <iconUrl>https://github.com/stefan-muc/chocolatey-packages/tree/master/keepass-plugin-KeePassOTP/icons/KeePassOTP_setup.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[KeePassOTP allows you to generate one time passwords (OTP). Both TOTP and HOTP are supported.
+
+Once maintained, you can copy or auto-type the OTP.  
+You may also create a QR code and scan it with an OTP app of your liking, e.g. andOTP, Google Authenticator, ...  
+
+Functionality provided:
+
+- Drag&Drop QR codes to add OTP
+- Auto-Type placeholder
+- Configurable hotkey to invoke Auto-Type OTP
+- Column to display OTP or to indicate possible 2FA usage
+- Compatibility with Google Authenticator, andOTP, ...
+- Support TOTP and HOTP
+- Secure storage of OTP secrets
+- Auto-Type / Copy OTP using the KeePass tray icon
+]]></description>
+    <summary>Plugin for KeePass 2.x to support One Time Passwords (RFC 6238)</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>© Rookiestyle</copyright>
+    <tags>keepass plugin automate security 2fa totp</tags>
+    <packageSourceUrl>https://github.com/stefan-muc/chocolatey-packages/tree/master/keepass-plugin-KeePassOTP</packageSourceUrl>
+    <docsUrl>http://keepass.info/help/v2_dev/scr_index.html</docsUrl>
+    <dependencies>
+      <dependency id="keepass" version="[2.42, 3.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
