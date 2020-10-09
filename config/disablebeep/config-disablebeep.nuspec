@@ -35,7 +35,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <!-- This section is about the software itself -->
     <title>Disable Windows Beep Sounds</title>
-    <authors>Microsoft Corporation</authors>
+    <authors>StefanMUC</authors>
     <!-- projectUrl is required for the community feed -->
     <projectUrl>https://superuser.com/questions/5017/how-to-turn-off-all-the-beep-sounds</projectUrl>
     <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/config/disablebeep/icons/noun_835447_cc.svg</iconUrl>
