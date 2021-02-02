@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>keepass-plugin-keepassotp</id>
-    <version>0.23</version>
+    <version>0.24</version>
     <title>KeePass Plugin KeePassOTP</title>
     <authors>Rookiestyle</authors>
     <owners>StefanMUC</owners>
@@ -12,8 +12,8 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description><![CDATA[KeePassOTP allows you to generate one time passwords (OTP). Both TOTP and HOTP are supported.
 
-Once maintained, you can copy or auto-type the OTP.  
-You may also create a QR code and scan it with an OTP app of your liking, e.g. andOTP, Google Authenticator, ...  
+Once maintained, you can copy or auto-type the OTP.
+You may also create a QR code and scan it with an OTP app of your liking, e.g. andOTP, Google Authenticator, ...
 
 Functionality provided:
 
