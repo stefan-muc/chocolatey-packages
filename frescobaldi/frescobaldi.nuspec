@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>frescobaldi</id>
+    <version>3.1.3</version>
+    <title>Frescobaldi</title>
+    <authors>Wilbert Berendsen</authors>
+    <owners>StefanMUC</owners>
+    <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
+    <projectUrl>https://frescobaldi.org/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/frescobaldi/icons/frescobaldi-icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[Frescobaldi is a LilyPond sheet music text editor. It aims to be powerful, yet
+lightweight and easy to use. Frescobaldi is Free Software, freely available
+under the General Public License.
+
+Features:
+
+- Powerful text editor with syntax highlighting and automatic completion
+- Music view with advanced two-way Point & Click
+- Midi player to proof-listen LilyPond-generated MIDI files
+- Midi capturing to enter music
+- Powerful Score Wizard to quickly setup a music score
+- Snippet Manager to store and apply text snippets, templates or scripts
+- Use multiple versions of LilyPond, automatically selects the correct version
+- Built-in LilyPond documentation browser and built-in help
+- Configurable document outline view to navigate large LilyPond scores easily
+- Smart layout-control functions like coloring specific objects in the PDF
+- Import ABC, Midi and MusicXML using the LilyPond-provided tools
+- Experimental export to MusicXML
+- Modern user interface with configurable colors, fonts and keyboard shortcuts
+- Translated into: Dutch, English, French, German, Italian, Swedish, Czech,
+  Russian, Spanish, Galician, Turkish, Polish, Brazilian and Ukrainian.
+
+Music functions:
+
+- Transpose music
+- Change music from relative to absolute and vice versa
+- Change the language used for note names
+- Change the rhythm (double, halve, add/remove dots, copy, paste) etc
+- Hyphenate lyrics using word-processor hyphenation dictionaries
+- Add spanners, dynamics, articulation easily using the Quick Insert panel
+- Update LilyPond syntax using convert-ly, with display of differences
+]]></description>
+    <summary>Frescobaldi is a LilyPond sheet music text editor</summary>
+    <releaseNotes>https://github.com/frescobaldi/frescobaldi/releases</releaseNotes>
+    <copyright>© Wilbert Berendsen</copyright>
+    <tags>lilypond music score</tags>
+    <packageSourceUrl>https://github.com/stefan-muc/chocolatey-packages/tree/master/frescobaldi</packageSourceUrl>
+    <docsUrl>https://frescobaldi.org/uguide</docsUrl>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
