@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dmxcontrol3</id>
+    <version>3.2.2.339</version>
+    <packageSourceUrl>https://github.com/stefan-muc/chocolatey-packages/tree/master/dmxcontrol3</packageSourceUrl>
+    <owners>StefanMUC</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>DMXControl 3</title>
+    <authors>DMXControl Projects e.V.</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://www.dmxcontrol.de/en/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/dmxcontrol3/icons/dmxc_logo_75px.png</iconUrl>
+    <copyright>2021 DMXControl Projects e.V.</copyright>
+    <licenseUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/dmxcontrol3/tools/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://wiki-de.dmxcontrol-projects.org/index.php?title=Inhalts%C3%BCbersicht_Hauptprogramm_DMXC3</docsUrl>
+    <bugTrackerUrl>https://bugs.dmxcontrol-projects.org/</bugTrackerUrl>
+    <tags>DMXControl DMXControl3 DMX HAL LightControl RGB MovingHead</tags>
+    <summary>DMXControl 3 offers a professional light control solution for everyone - completely free of charge!</summary>
+    <description><![CDATA[With DMXControl 3 it is very easy to create your own light show. As a show designer you don't want to calculate values, just set up device properties like colors, positions, etc. DMXControl 3 gives you the possibility to control multiple fixtures of different types at once with the same property based controls. No more seaches for the right channel values in the channel overview.
+
+No more seaches for the right channel values in the channel overview. Just set a device property and DMXControl 3 does everything else. Variant effects like color gradients, rainbows, moving head movements or color chasers can be created with only three clicks. All that is possible thanks to the new H. A. L.
+]]></description>
+
+    <dependencies>
+      <dependency id="xna" version="[4.0.20823, 5.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
