@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'Microsoft XNA Framework Redistributable 4.0'
 
-  checksum      = 'E02A21A2ABCD32FE64411704FCA9B199844F13F22F9D5B60D4B7C912C7C88E15'
+  checksum      = '2B03C130C4BB5F106B9619BEA8150201F7E982709CFE9A0CC8BDE75FF0A83B27'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
 
   silentArgs    = "/qn /norestart /l*v `"$($env:TEMP)\$($packageName).$($env:chocolateyPackageVersion).MsiInstall.log`"" # ALLUSERS=1 DISABLEDESKTOPSHORTCUT=1 ADDDESKTOPICON=0 ADDSTARTMENU=0
