@@ -1,0 +1,7 @@
+﻿VERIFICATION
+Verification is intended to assist the Chocolatey moderators and community
+in verifying that this package's contents are trustworthy.
+ 
+Download binary at https://www.dmxcontrol.de/en/downloads/category/62-current-version.html and verify checksum.
+
+Package includes binary, because software vendor doesn't offer older versions on its webpages, so to have a reliable package install experience, binary has to be included.

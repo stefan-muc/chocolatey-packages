@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>dmxcontrol2</id>
+    <version>2.12.2</version>
+    <packageSourceUrl>https://github.com/stefan-muc/chocolatey-packages/tree/master/dmxcontrol2</packageSourceUrl>
+    <owners>StefanMUC</owners>
+
+    <!-- == SOFTWARE SPECIFIC SECTION == -->
+    <title>DMXControl 2</title>
+    <authors>DMXControl Projects e.V.</authors>
+    <!-- projectUrl is required for the community feed -->
+    <projectUrl>https://www.dmxcontrol.de/en/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/dmxcontrol2/icons/DMXControl.png</iconUrl>
+    <copyright>2014 DMXControl Projects e.V.</copyright>
+    <licenseUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/dmxcontrol2/tools/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <docsUrl>https://wiki-de.dmxcontrol-projects.org/index.php?title=Handbuch_DMXControl_2</docsUrl>
+    <bugTrackerUrl>https://bugs.dmxcontrol-projects.org/</bugTrackerUrl>
+    <tags>DMXControl DMXControl2 DMX LightControl RGB MovingHead</tags>
+    <summary>DMXControl 2 offers many functions for a successful light show</summary>
+    <description><![CDATA[DMXControl 2 is the versatile and well-tried light control software for theater, disco and show lighting. Though it is based on a DMX channel oriented control concept, it still offers functions which aren't integrated in DMXControl 3 yet. So Lightshows synchronized with music can easily be created and the textbook module is unrivalled.
+
+Important: Those, who do not want to create music-synchronized light shows or dont want to use the textbook should use DMXControl 3 instead since DMXControl 2 isn't developed further any more!]]></description>
+
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

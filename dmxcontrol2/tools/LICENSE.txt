@@ -1,0 +1,51 @@
+﻿From: inside binary shown on setup (https://wiki-de.dmxcontrol-projects.org/index.php?title=Installation_DMXC3#Lizenz)
+
+LICENSE
+
+Software license agreement for DMXControl; License:
+
+The software is distributed as freeware. The software is NOT Public Domain software.
+We allow the free distribution of the software, but we retain ownership and copyright of
+the software and its source code in its entirety. You may use and/or distribute the
+software only subject to the following conditions:
+
+ * You may use this software on any number of computers for as long as you like.
+ * You may not modify the program files in any way
+ * You must include all the files that were in the original distribution
+ * You may not decompile or otherwise reduce the Software to a human readable form
+ * You may not sell the software or charge a distribution fee, except to recover
+    the media costs
+ * You understand and agree with this license and with the disclaimer of warranty
+    and the limitation of liability printed below.
+
+The software may be bundled and distributed together with other software products but
+the same conditions apply.
+You do not need to seek our permission first. But a note telling us about your software is
+wanted. Comments and contributions for improvement of documentation can be
+provided at the forum and wiki of DMXControl.de.
+
+Disclaimer of warranty:
+
+The software and related documentation are provided "as it is", without warranty of any
+kind. The project DMXControl disclaims all warranties, express or implied, including, but
+not limited to, the implied warranties of design, merchantability, fitness for a particular
+purpose. The project DMXControl does not warrant that the functions contained in the
+software or documentation will meet your requirements, or that the operation of the
+software will be uninterrupted, error-free or complete, or that defects in the software or
+documentation will be corrected.
+
+Limitation of liability:
+
+Under no circumstances, including negligence, shall the project DMXControl be liable for
+any lost revenue or profits or any incidental, indirect, special, or consequential damages
+that result from the use or inability to use the or related products or documentation,
+even if the project DMXControl has been advised of the possibility of such damages.
+Some states do not allow the limitation or exclusion of liability for incidental or
+consequential damages so the above limitation or exclusion may not apply to you. In no
+event shall the project DMXControl total liability to you for all damages, losses, and
+causes of action, whether in contract, tort (including negligence) or otherwise, exceed
+the amount paid by you for the software.
+
+Copyright:
+
+Program and documentation (c) by DMXControl team
