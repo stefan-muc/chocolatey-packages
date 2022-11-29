@@ -11,8 +11,8 @@ if ($psver -ge 3) {
 $packageName = $env:ChocolateyPackageName
 $packageSearch = 'KeePass Password Safe'
 $typName = 'KeePassOTP.plgx'
-$url = 'https://github.com/Rookiestyle/KeePassOTP/releases/download/v1.5/KeePassOTP.plgx'
-$checksum = '4f79c85e18ab17337c7ef3041703b118bff14f0a29c746e5b6e1928d115765b1'
+$url = 'https://github.com/Rookiestyle/KeePassOTP/releases/download/v1.6/KeePassOTP.plgx'
+$checksum = '2bb4287dbfcd15c72316d80a054f70783102ffe5116c77b2676afdf70d233c6c'
 $checksumType = 'sha256'
 try {
 # search registry for location of installed KeePass
@@ -27,7 +27,7 @@ $regPath = Get-ItemProperty -Path @('HKLM:\Software\Wow6432Node\Microsoft\Window
                            $_.DisplayVersion -lt 3.0 } `
            | ForEach-Object {$_.InstallLocation}
 $installPath = $regPath + "Plugins\"
-# search $env:ChocolateyBinRoot for portable install
+# search Chocolatey BinRoot for portable install
 if (! $installPath) {
   Write-Verbose "$($packageSearch) not found installed."
   $binRoot = Get-BinRoot
@@ -35,7 +35,8 @@ if (! $installPath) {
   $installPath = Get-ChildItemDir $portPath* -ErrorAction SilentlyContinue
 }
 if (! $installPath) {
-  Write-Verbose "$($packageSearch) not found in $($env:ChocolateyBinRoot)"
+  $toolsRoot = Get-ToolsLocation
+  Write-Verbose "$($packageSearch) not found in $($toolsRoot)"
   throw "$($packageSearch) location could not be found."
 }
 $pluginPath = $installPath
