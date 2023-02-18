@@ -2,7 +2,7 @@
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://github.com/frescobaldi/frescobaldi/releases/download/v3.1.3/Frescobaldi.Setup.3.1.3.exe'
+$url        = 'https://github.com/frescobaldi/frescobaldi/releases/download/v3.2/Frescobaldi.Setup.3.2.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
@@ -12,7 +12,7 @@ $packageArgs = @{
 
   softwareName  = 'Frescobaldi Full Windows installer'
 
-  checksum      = 'D36FB76BA59A157F6E7CFA5C6DD36EF899527566A3B15BDB855DA852886E08F3'
+  checksum      = '760B5A4A15BEE8AE79A0BDC1869C16F9C54E292C1020CAA3706A5ACDFAB4D6C9'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
 
   silentArgs    = "/VERYSILENT"
