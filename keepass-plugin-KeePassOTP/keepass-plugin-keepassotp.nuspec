@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>keepass-plugin-keepassotp</id>
-    <version>1.6.3</version>
+    <version>1.6.4</version>
     <title>KeePass Plugin KeePassOTP</title>
     <authors>Rookiestyle</authors>
     <owners>StefanMUC</owners>
@@ -10,10 +10,9 @@
     <projectUrl>https://github.com/Rookiestyle/KeePassOTP</projectUrl>
     <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/keepass-plugin-KeePassOTP/icons/KeePassOTP_setup.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description><![CDATA[KeePassOTP allows you to generate one time passwords (OTP). Both TOTP and HOTP are supported.
+    <description><![CDATA[KeePassOTP allows you to generate one time passwords (OTP). It supports both standard TOTP and standard HOTP as well as Steam OTP and Yandex (Yandex.Key < 3).
 
-Once maintained, you can copy or auto-type the OTP.
-You may also create a QR code and scan it with an OTP app of your liking, e.g. andOTP, Google Authenticator, ...
+Once set up, you can copy or auto-type the OTP. You may also create a QR code and scan it with an OTP app of your liking, e.g. andOTP, Google Authenticator etc.
 
 Functionality provided:
 
@@ -21,10 +20,14 @@ Functionality provided:
 - Auto-Type placeholder
 - Configurable hotkey to invoke Auto-Type OTP
 - Column to display OTP or to indicate possible 2FA usage
-- Compatibility with Google Authenticator, andOTP, ...
-- Support TOTP and HOTP
+- Compatibility with Google Authenticator, andOTP etc.
+- Support TOTP and HOTP as well as Steam OTP and Yandex (Yandex.Key < 3)
 - Secure storage of OTP secrets
-- Auto-Type / Copy OTP using the KeePass tray icon
+- Auto-Type or Copy OTP using the KeePass tray icon
+- Indicate possible usage of OTP / two factor authentication (requires internet access)
+
+Proprietary formats like Steam and Yandex.Key are supported as well.
+Unfortunately Yandex changed their closed source algorithm starting with version 3. Due to lack of information, it's no longer possible to generate Yandex codes after installing / migrating to Yandex.Key version 3 or higher.
 ]]></description>
     <summary>Plugin for KeePass 2.x to support One Time Passwords (RFC 6238)</summary>
     <releaseNotes>https://github.com/Rookiestyle/KeePassOTP/releases/</releaseNotes>
