@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>fakturama</id>
+    <version>2.1.3</version>
+    <title>Fakturama</title>
+    <authors>Ralf Heydenreich</authors>
+    <owners>StefanMUC</owners>
+    <licenseUrl>https://www.eclipse.org/legal/epl/epl-v10.html</licenseUrl>
+    <projectUrl>https://www.fakturama.info/</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/stefan-muc/chocolatey-packages/master/fakturama/icons/logo-v1_black.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description><![CDATA[
+
+    Erstellen von Rechnungen, Lieferscheinen, Bestellungen, Mahnungen, Angeboten, Auftragsbestätigungen. Schnittstellen für die Anbindung bekannter Webshop-Systeme
+
+    Umfassende Dokumentenerstellung
+
+    Von Angeboten bis zu Rechnungen und Mahnungen erzeugt FAKTURAMA alle betriebswirtschaftlich relevanten Dokumente. Dafür lassen sich Steuersätze, Zahlungsarten und Versandarten beliebig im Programm hinterlegen. Darüber hinaus lassen sich Rabatte für einzelne Artikel sowie den Gesamtbetrag anwenden. Skonti und Teilzahlungen werden berücksichtigt. Selbst Briefe lassen sich schnell und einfach erstellen. Eine Produktverwaltung ist ebenso integriert.
+    Dokumentauswahl
+
+    Erfassung von Einnahmen- und Ausgabenbelegen
+
+    Mit der Erfassung von Einnahmen- und Ausgabenbelegen gelingt es leicht, Einnahmen und Ausgaben zur internen Verwendung oder für ein Kundenprojekt gegenüberzustellen. Verschiedene Auswertungen informieren unter anderem über Kontostände. Durch das flexible LibreOffice-Calc-Format lassen sich die Daten übersichtlich gestalten und weiternutzen.
+    Einnahme und Ausgabenbelege
+
+    Umfangreiche Auswertungen
+
+    Viele Unternehmer und Selbstständige quält die Frage, welches Produkt am besten läuft oder welche Kunden sich wofür entscheiden. FAKTURAMA gibt die Antworten! Auch hier gilt: Durch das flexible LibreOffice-Calc-Format lassen sich die Daten übersichtlich gestalten und weiternutzen.
+    Auswertungen
+
+    Webshopschnittstelle
+
+    Über die konfigurierbare Webshop-Schnittstelle werden die Kunden-, Artikel- und Bestelldaten ins System geladen. Eine große Auswahl an Webshop-Connectoren sorgt für die Anbindung der bekanntesten Webshop-Systeme an FAKTURAMA. Beim Datenimport werden automatisch noch nicht vorhandene Artikel- und Kundendatensätze angelegt.
+]]></description>
+    <summary>Die kostenlose OpenSource Faktura-Software</summary>
+    <releaseNotes>https://www.fakturama.info/blog/techblog/</releaseNotes>
+    <copyright>© Ralf Heydenreich</copyright>
+    <tags>faktura money</tags>
+    <packageSourceUrl>https://github.com/stefan-muc/chocolatey-packages/tree/master/fakturama</packageSourceUrl>
+    <docsUrl>https://files.fakturama.info/release/v2.1.3/Handbuch-Fakturama_2.1.3.pdf</docsUrl>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
