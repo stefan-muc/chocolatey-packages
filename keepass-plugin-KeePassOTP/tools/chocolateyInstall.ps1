@@ -11,8 +11,8 @@ if ($psver -ge 3) {
 $packageName = $env:ChocolateyPackageName
 $packageSearch = 'KeePass Password Safe'
 $typName = 'KeePassOTP.plgx'
-$url = 'https://github.com/Rookiestyle/KeePassOTP/releases/download/1.9/KeePassOTP.plgx'
-$checksum = '3364e0d85ddccc6198b73df0f5ad71e515c131adc5cf0b82e7c48e2f577c7fea'
+$url = 'https://github.com/Rookiestyle/KeePassOTP/releases/download/v1.10/KeePassOTP.plgx'
+$checksum = '90cf91226fd4e247f7d47783ea22f627cd4a8ee8ce6f3ff661c7757a6bab773d'
 $checksumType = 'sha256'
 try {
 # search registry for location of installed KeePass
