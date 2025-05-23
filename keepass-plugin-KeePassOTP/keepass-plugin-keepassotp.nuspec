@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>keepass-plugin-keepassotp</id>
-    <version>1.10.0</version>
+    <version>1.10.2</version>
     <title>KeePass Plugin KeePassOTP</title>
     <authors>Rookiestyle</authors>
     <owners>StefanMUC</owners>
